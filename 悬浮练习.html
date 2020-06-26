@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./reset.css">
+    <style>
+        #beijing{
+            width: 100%;
+            height: 22px;
+            background:rgb(0, 255, 157);
+        }
+        #sha{
+            width: 80%;
+            height: 22px;
+            /* background-color: red; */
+            /* margin: 0 auto; */
+        }
+        #beijing #sha ul li{
+            float: left;
+            border-left: 1px solid black;
+            border-right: 1px solid black;
+            text-align: center;
+            /* color: #FFF; */
+            /* padding-left: 100px; */
+             /* margin-left: 150px; */
+            /* position: relative; */
+        }
+        #beijing #sha li{
+            width: 70px;
+            /* height: 20px; */
+            margin: 0 0 0  50px;
+        }
+        #wowo,#gougou{
+            display: none;
+            background: red;
+        }
+        #beijing #sha .li1:hover #wowo{
+            display: block;
+            width: 700px;
+            height: 330px;
+        }
+        #beijing #sha .li2:hover #gougou{
+            display: block;
+            width: 700px;
+            height: 330px;
+        }
+        
+    </style>
+</head>
+<body>
+    <div id="beijing">
+        <div id="sha">
+            <ul>
+                <li class="li1"> <a href="">首页</a>  <div id="wowo" align="left" > <h3>狗狗商城 »</h3>
+                    <p>宠物狗粮 &nbsp;&nbsp; 狗狗零食&nbsp;&nbsp;罐头湿粮</p>
+                    <p>狗狗保健 &nbsp;&nbsp; 品狗狗医疗 &nbsp;&nbsp; 狗狗出行</p>
+                    <p>狗狗日用品 &nbsp;&nbsp; 狗狗美容 &nbsp;&nbsp; 狗狗玩具</p>
+                </div>  </li>
+                <li class="li2">狗狗 <div id="gougou">狗狗</div></li>
+                <li class="li" >猫咪</li>
+                <li class="li" >小宠</li>
+                <li class="li" >水族</li>
+                <li class="li" >爬虫</li>
+                <li class="li" > 波奇服务</li>
+                <li class="li" > 波奇商城 </li>
+                <li id="li"  >波奇无线</li>
+            </ul>
+        </div>
+    </div>
+   <div id="beijing"></div>
+</body>
+</html>

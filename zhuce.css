@@ -1,0 +1,112 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+/* 头  */
+.head{
+    /* 头部导航的宽高 加灰色边框 行高 */
+    width: 100%px;
+    height: 40px;
+    border: 1px solid #DDDDDD;
+    line-height: 35px;
+    
+}
+
+ul:nth-child(1){
+    /* 左边的外边距 */
+    margin-left: 456px;
+}
+
+/* 右浮动 右边的外边距 */
+ul:nth-child(2){
+    float: right;
+    margin-right: 485px;
+}
+
+/* ul下的li左浮动 去点  外边距*/
+.head>ul>li{
+    float: left; 
+    list-style: none;
+    padding-left: 20px;;
+   
+}
+
+/* 字体黑色  取消下划线 字体大小*/
+.head>ul>li>a{
+    color: #000;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+/* 鼠标悬浮字体为红色 鼠标添加下划线 */
+.head>ul>li>a:hover{
+    color: red;
+    text-decoration: underline;
+}
+
+/* 25行 hide隐藏 绝对定位 */
+.hide{
+    display: none;
+    position: absolute;
+    top: 40px;
+    right: 650px;
+}
+
+ /* 23行 图片1 背景颜色 宽 高 左 上 */
+.picture{
+    background: white;
+    width: 120px;
+    height: 120px;
+    margin-left: 32px;
+    margin-top: 3px;
+}
+
+/* 图片的左上距离 */
+.picture>img{
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+/* 图片2 */
+.picture_1{
+    background: white;
+    width: 120px;
+    height: 120px;
+    margin-left: 110px;
+    margin-top: 3px;
+}
+
+/* 图片2的左上距离 */
+.picture_1>img{
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.appear_1>.appear{
+    border: 1px solid whitesmoke;
+}
+
+/* appear出现  悬浮之后出现白色边框*/
+.appear_1>.appear:hover{
+   border-bottom: 1px solid whitesmoke;
+   border-left: 1px solid gray;
+}
+
+/* appear出现 */
+.appear:hover .hide{
+    display: block;
+    width: 150px;
+    height: 150px;
+}
+
+/* 中  宽 高 背景颜色*/
+.centre{
+    width: 100%;
+    height: 400px;
+    background: #F3F3F3;
+}
+
+
+
+
